@@ -1,12 +1,8 @@
 ---
 :id: 251768593
-:submitters:
-- :name: Ebtesham Ahmed
-  :email: ea2796@nyu.edu
-- :name: Seha Kim
-  :email: sk8140@nyu.edu
+:submitter:
 - :name: Riku Santa Cruz
-  :email: rs8057@nyu.edu
+  :email: rikusantacruz@gmail.com
 :created_at: !ruby/object:ActiveSupport::TimeWithZone
   utc: 2024-05-02 16:10:54.826748000 Z
   zone: !ruby/object:ActiveSupport::TimeZone
