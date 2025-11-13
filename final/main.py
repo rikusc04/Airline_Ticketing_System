@@ -346,7 +346,7 @@ def cancel_trip():
         current_date = date.today()
         in_future = current_date < dobj
         
-        if (output_exists & in_future):
+        if (output_exists and in_future):
             query2 = "DELETE FROM Ticket WHERE id_number = %s"
             query3 = "DELETE FROM Purchase WHERE id_number = %s"
             query4 = "DELETE FROM Trips WHERE outbound_ticket_id = %s OR return_ticket_id = %s"
